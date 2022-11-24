@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fabric-ca-client": "^2.2.15",
-    "fabric-client": "^1.4.20",
-    "fabric-network": "^2.2.15"
+    "fabric-ca-client": "~1.4.0",
+    "fabric-client": "~1.4.0"
   }
 }
+
