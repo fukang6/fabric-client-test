@@ -4,7 +4,7 @@ var Fabric_CA_Client = require('fabric-ca-client');
 var fs = require('fs');
 var path = require('path');
 
-var firstnetwork_path = path.resolve('..', 'qogir-projects', 'fabric-samples', 'test-network');
+var firstnetwork_path = path.resolve('..','fabric-samples', 'test-network');
 var org1tlscacert_path = path.resolve(firstnetwork_path, 'organizations', 'peerOrganizations', 'org1.example.com', 'tlsca', 'tlsca.org1.example.com-cert.pem');
 var org1tlscacert = fs.readFileSync(org1tlscacert_path, 'utf8');
 
